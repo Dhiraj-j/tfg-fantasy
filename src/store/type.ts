@@ -1,5 +1,6 @@
 interface Slot {
-  time: string;
+  start: string | null;
+  end: string | null;
 }
 
 interface Schedule {

@@ -3,6 +3,7 @@ import LoginScreen from '@screens/Auth/LoginScreen';
 import SignupScreen from '@screens/Auth/SignupScreen';
 import OtpScreen from '@screens/Auth/OtpScreen';
 import HomeScreen from '@screens/Stack/HomeScreen';
+import MatchCreate from '@screens/Stack/MatchCreate';
 
 const {Screen, Navigator} = createStackNavigator();
 
@@ -10,6 +11,7 @@ const MainStack = () => {
   return (
     <Navigator screenOptions={{headerShown: true}}>
       <Screen name="Home" component={HomeScreen} />
+      <Screen name="MatchCreate" component={MatchCreate} />
     </Navigator>
   );
 };

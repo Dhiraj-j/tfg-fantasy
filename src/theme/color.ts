@@ -4,6 +4,7 @@ const COLORS = {
   BACKGROUND: '#FFF',
   PRIMARY: '#67A93B',
   PRIMARY90: '#67A93BE5',
+  ERROR: 'red',
 };
 
 export default COLORS;
