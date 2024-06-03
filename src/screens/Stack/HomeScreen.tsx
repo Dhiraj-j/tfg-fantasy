@@ -3,10 +3,11 @@ import React, {useEffect} from 'react';
 import {useAppDispatch, useAppSelector} from '@store/hooks';
 import COLORS from '@theme/color';
 import {addMatch} from '@store/matchSlice';
+import {checkPalenrom} from '@utils/checkPailendrom';
 
 const HomeScreen = ({navigation}) => {
   const matchs = useAppSelector(state => state.reducer);
-
+  checkPalenrom('abababaa');
   return (
     <View style={{flex: 1}}>
       <FlatList

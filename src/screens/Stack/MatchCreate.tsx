@@ -276,7 +276,7 @@ const MatchCreate = ({navigation}) => {
           <Text style={styles.input}>Select date(s)</Text>
         </Pressable>
         <View style={{flex: 1, justifyContent: 'space-between'}}>
-          {selectedDates.length > 0 ? (
+          {form.schedules.length > 0 ? (
             <ScrollView style={{marginTop: 20}}>
               {form.schedules.map((item, index) => (
                 <View key={index} style={{marginTop: 5}}>
